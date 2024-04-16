@@ -137,3 +137,7 @@
 
 -- The SQL statement for the cast output
 -- TODO!
+
+DROP TABLE Movies;
+DROP TABLE "Top Cast";
+
