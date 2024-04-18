@@ -141,3 +141,26 @@
 DROP TABLE Movies;
 DROP TABLE "Top Cast";
 
+CREATE TABLE Movie (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+movie_title TEXT,
+year TEXT
+);
+
+DROP TABLE Movie; 
+
+CREATE TABLE Movie (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+movie_title TEXT,
+year TEXT,
+rating TEXT,
+studio TEXT
+);
+
+CREATE TABLE Actor (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+actor_name TEXT,
+movie_title TEXT,
+movie_title2 TEXT,
+movie_title3 TEXT,
+) ;
