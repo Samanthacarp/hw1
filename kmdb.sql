@@ -228,4 +228,179 @@ VALUES (
 
 SELECT * FROM movie;
 
+INSERT INTO Actors (
+actor_name,
+movie_title
+)
 
+VALUES (
+"Christian Bale",
+"Batman Begins"
+);
+
+SELECT * from Actors;
+
+INSERT INTO Actors (
+actor_name,
+movie_title
+)
+
+VALUES (
+    "Michael Caine",
+    "Batman Begins"
+);
+
+SELECT * from Actors;
+
+INSERT INTO Actors (
+actor_name,
+movie_title
+)
+
+VALUES (
+    "Heath Ledger",
+    "Dark Knight"
+);
+
+SELECT * from Actors;
+
+INSERT INTO Actors (
+actor_name,
+movie_title
+)
+
+VALUES (
+    "Aaron Eckhar",
+    "Dark Knight"
+);
+
+SELECT * from Actors;
+
+INSERT INTO Actors (
+actor_name,
+movie_title
+)
+
+VALUES (
+    "Tom Hardy",
+    "Dark Knight Rises"
+);
+
+SELECT * from Actors;
+
+INSERT INTO Actors (
+actor_name,
+movie_title
+)
+
+VALUES (
+    "Anne Hathaway",
+    "Dark Knight Rises"
+);
+
+SELECT * from Actors;
+
+INSERT INTO Actors (
+actor_name,
+movie_title
+)
+
+VALUES (
+    "Joseph Gordon-Levitt",
+    "Dark Knight Rises"
+);
+
+SELECT * from Actors;
+
+INSERT INTO studios (
+studio,
+movie_title,
+movie_titleb,
+movie_titlec
+)
+
+VALUES (
+    "Warner Brother",
+    "Batman Begins",
+    "Dark Night",
+    "Dark Night Rises"
+);
+
+SELECT * from studios;
+
+INSERT INTO characters (
+"movie_title",
+"studio",
+"character_name",
+"actor_name"
+)
+VALUES (
+"batman begins",
+"Warner Brother",
+"Bruce Wayne",
+"Christian Bale"
+);
+
+SELECT * from characters;
+
+INSERT INTO characters (
+"movie_title",
+"studio",
+"character_name",
+"actor_name"
+)
+VALUES (
+"batman begins",
+"Warner Brother",
+"Alfred",
+"Michael Caine"
+);
+
+SELECT * from characters;
+
+
+INSERT INTO characters (
+"movie_title",
+"studio",
+"character_name",
+"actor_name"
+)
+VALUES (
+"Dark Knight",
+"Warner Brother",
+"Joker",
+"Heath Ledger"
+);
+
+SELECT * from characters
+
+
+INSERT INTO characters (
+"movie_title",
+"studio",
+"character_name",
+"actor_name"
+)
+VALUES (
+"Dark Night",
+"Warner Brother",
+"Alfred",
+"Michael Caine"
+);
+
+SELECT * from characters
+
+INSERT INTO characters (
+movie_title,
+studio,
+character_name,
+actor_name
+)
+VALUES (
+"Dark Knight Rises",
+"Warner Brother",
+"Bane",
+"Tom Hardy"
+)
+
+SELECT * from characters;
