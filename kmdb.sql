@@ -157,10 +157,75 @@ rating TEXT,
 studio TEXT
 );
 
-CREATE TABLE Actor (
+CREATE TABLE Actors (
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 actor_name TEXT,
+movie_title TEXT
+);
+
+ALTER TABLE Actors ADD COLUMN movie_titleb
+
+ALTER TABLE Actors DROP COLUMN movie_titleb;
+
+CREATE TABLE studios (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+studio TEXT,
 movie_title TEXT,
-movie_title2 TEXT,
-movie_title3 TEXT,
-) ;
+movie_titleb TEXT,
+movie_titlec TEXT
+);
+
+CREATE TABLE characters (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+movie_title TEXT,
+studio TEXT,
+character_name TEXT,
+actor_name TEXT
+); 
+
+INSERT INTO movie (
+movie_title,
+year,
+rating,
+studio
+)
+VALUES (
+"Batman Begins",
+"2005",
+"pg-13",
+"Warner Brothers"
+);
+SELECT * FROM movie;
+
+INSERT INTO movie (
+movie_title,
+year,
+rating,
+studio
+)
+VALUES (
+"Dark Knight",
+"2008",
+"pg-13",
+"Warner Brothers"
+);
+
+SELECT * FROM movie;
+
+INSERT INTO movie (
+movie_title,
+year,
+rating,
+studio
+)
+
+VALUES (
+"Dark Knight Rises",
+"2012",
+"pg-13",
+"Warner Brothers"
+);
+
+SELECT * FROM movie;
+
+
