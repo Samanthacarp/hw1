@@ -415,3 +415,11 @@ ORDER BY movie_title;
 SELECT movie_title, actor_name, character_name 
 FROM characters
 WHERE year > 2007;
+
+SELECT Movie.movie_title, Movie.year, Actors.actor_name
+FROM Movie INNER JOIN Actors ON  Movie.movie_title = Actors=movie_title
+WHERE year > 2007;
+
+SELECT studios.studio, Movie.studio, Movie.year
+FROM Movie Inner Join studios ON Movie.studio = studios.studio
+WHERE year = 2008;
