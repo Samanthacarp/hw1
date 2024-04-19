@@ -404,3 +404,14 @@ VALUES (
 )
 
 SELECT * from characters;
+
+SELECT movie_title FROM Movie
+ORDER BY year;
+
+SELECT actor_name, movie_title
+FROM Actors
+ORDER BY movie_title;
+
+SELECT movie_title, actor_name, character_name 
+FROM characters
+WHERE year > 2007;
